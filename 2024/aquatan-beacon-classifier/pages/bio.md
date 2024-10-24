@@ -1,6 +1,5 @@
 ---
 layout: two-cols-header
-
 ---
 
 # 自己紹介
@@ -18,7 +17,6 @@ layout: two-cols-header
     <div class="px-4 py-2 bg-zinc-100 dark:bg-zinc-900 rounded-lg">
         <h3 class="">情報工学 4回</h3>
         <h5 class="">そふらぼ所属</h5>
-        <h4>好きなこと：ボードゲーム</h4>
         <div class="bg-zinc-500 w-full h-px my-2"></div>
         <h3><fa6-brands-x-twitter/> @pipipihatto</h3>
         <h3><fa6-brands-github/> @ry05k2ulv</h3>

@@ -268,6 +268,16 @@ for (place, detector), df in df.groupby(["place", "detector"]):
 ```
 
 ---
+
+# Box-Cox変換後の分布
+
+<div class="grid grid-cols-2">
+    <img src="./images/boxcox-0.png" class="w-full object-cover rounded-lg m-auto">
+    <img src="./images/boxcox-1.png" class="w-full object-cover rounded-lg m-auto">
+    <img src="./images/boxcox-2.png" class="w-full object-cover rounded-lg m-auto">
+</div>
+
+---
 layout: image-right
 image: ./images/v1_acc_boxcox.png
 backgroundSize: 70%
