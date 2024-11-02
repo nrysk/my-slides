@@ -1,0 +1,10 @@
+{
+  "name": "aquatan-beacon-classifier",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "export PARENT_DIR_NAME=$(node ../../scripts/get-parent-dir-name.cjs) && slidev build --base $PARENT_DIR_NAME --out ../../dist/$PARENT_DIR_NAME",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  }
+}

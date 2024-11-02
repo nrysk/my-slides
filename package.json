@@ -2,8 +2,13 @@
   "name": "package.json",
   "type": "module",
   "private": true,
+  "workspaces": [
+    "slides/*"
+  ],
   "scripts": {
-    "build": "slidev build",
+    "new": "scaffdog generate new-slide",
+    "prebuild": "rimraf dist",
+    "build": "npm run --workspaces build",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -16,6 +21,8 @@
   "devDependencies": {
     "@iconify-json/fa6-brands": "^1.2.1",
     "@iconify/iconify": "^3.1.1",
-    "playwright-chromium": "^1.48.1"
+    "playwright-chromium": "^1.48.1",
+    "rimraf": "^6.0.1",
+    "scaffdog": "^4.1.0"
   }
 }
